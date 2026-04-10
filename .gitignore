@@ -1,0 +1,7 @@
+# Windows "Mark of the Web" sidecar files (WSL/NTFS)
+*:Zone.Identifier
+
+# OS metadata junk
+.DS_Store
+Thumbs.db
+desktop.ini
