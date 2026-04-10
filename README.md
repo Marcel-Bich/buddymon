@@ -1,7 +1,7 @@
 <h1 align="center">buddymon</h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb213305-812b-4e3a-88fe-8a463d3e6670" alt="buddymon concept preview" width="400">
+  <img src="assets/buddymon-preview.gif" alt="buddymon animated sprite buddy" width="312">
 </p>
 
 <p align="center">
