@@ -1,11 +1,11 @@
 # buddymon
 
-WIP - First release soon!
+WIP - First release soon!  
 
-Minimum goal:
+Minimum goal:  
 Features like the original /buddy from claude code
 
-Maybe:
+Maybe:  
 Variety of other Features like leveling up, evolution, useful agentic work, etc.
 
 Concept preview:  
