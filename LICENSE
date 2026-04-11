@@ -1,0 +1,652 @@
+Buddymon License v1
+
+Copyright (c) 2026 Marcel Bich. All rights reserved except as expressly granted below.
+
+>>> ENGLISH VERSION BELOW <<<
+
+
+================================================================
+                       GERMAN / DEUTSCH
+================================================================
+
+Buddymon-Lizenz v1
+
+Copyright (c) 2026 Marcel Bich. Alle Rechte vorbehalten, soweit nachstehend
+nicht ausdrücklich anders eingeräumt.
+
+
+TL;DR (Zusammenfassung in einfacher Sprache)
+--------------------------------------------
+
+Was Sie DÜRFEN:
+- buddymon persönlich auf Ihren eigenen Geräten installieren und nutzen
+- buddymon intern in Ihrem Unternehmen einsetzen, sofern keine Monetarisierung erfolgt
+- buddymon für sich privat verändern (einschließlich Entwicklung neuer Funktionen)
+- die Software privat mit Freunden teilen (USB-Stick, Direktnachricht usw.)
+- die Software für Bildung, Lehre, Lernen und Forschung verwenden
+- buddymon in Ihrem Portfolio, Lebenslauf oder bei Bewerbungsgesprächen zeigen
+- Streams oder Videos mit buddymon erstellen, sofern sichtbar
+  "powered by buddymon by Marcel Bich" als Quellenangabe genannt wird
+- buddymon bei archive.org, Software Heritage oder der Wayback Machine archivieren
+- den Quellcode lesen und studieren
+
+Was Sie NICHT DÜRFEN:
+- die Software verkaufen, monetarisieren oder ein bezahltes Produkt bzw. einen
+  bezahlten Support darum herum aufbauen
+- die Software über Paketmanager weiterverteilen (PyPI, Homebrew, apt usw.) -
+  dies ist ausschließlich dem Inhaber des Offiziellen Repositories
+  (derzeit: Marcel Bich) oder Dritten mit seiner ausdrücklichen schriftlichen
+  Zustimmung gestattet
+- ein konkurrierendes Produkt aus diesem Code ableiten
+- diesen Code als Eingabe oder Trainingsdaten für KI-Systeme nutzen
+  (für Training, Fine-Tuning, Analyse, Indexierung oder zum Klonen)
+- den Urhebervermerk entfernen
+
+Außerdem: Diese Lizenz wird automatisch in die MIT-Lizenz umgewandelt, wenn
+Marcel Bich für 24 aufeinanderfolgende Monate im Offiziellen Repository inaktiv
+ist oder nach seinem Tod.
+
+
+1. Begriffsbestimmungen
+-----------------------
+
+"Software" bezeichnet buddymon einschließlich aller Quelltexte, Objektcodes,
+Dokumentationen, Konfigurationsdateien, Assets und sonstiger Materialien, die
+unter dieser Lizenz vertrieben werden.
+
+"Urheberrechtsinhaber" bezeichnet Marcel Bich, den ursprünglichen Autor der
+Software.
+
+"Sie" bezeichnet eine natürliche oder juristische Person, die die
+durch diese Lizenz eingeräumten Befugnisse ausübt.
+
+"Kommerzielle Nutzung" bezeichnet jede Nutzung der Software, ganz oder in
+Teilen, die auf einen geschäftlichen Vorteil oder eine geldwerte Gegenleistung
+gerichtet ist, einschließlich des Verkaufs von Kopien, des Anbietens von
+bezahlten Dienstleistungen auf Basis der Software oder der Einbindung der
+Software in ein bezahltes Produkt.
+
+"Konkurrenzprodukt" bezeichnet jedes Softwareprodukt oder jeden Dienst, das
+bzw. der die Funktionalität der Software im Wesentlichen nachbildet,
+nachimplementiert oder ersetzt und Dritten (entgeltlich oder unentgeltlich)
+angeboten wird.
+
+"KI-Systeme" bezeichnet Modelle des maschinellen Lernens, künstliche
+Intelligenzsysteme, große Sprachmodelle, neuronale Netze, automatisierte
+Codegenerierungswerkzeuge, KI-Agenten, KI-Assistenten,
+Retrieval-Augmented-Generation-Systeme (RAG), Embedding-Modelle sowie alle sonstigen automatisierten Systeme, die mittels statistischer oder
+neuronaler Verfahren aus Eingabedaten lernen, diese analysieren oder darauf
+basierende Inhalte erzeugen. Nicht als KI-Systeme im Sinne dieser Lizenz gelten
+klassische Entwicklungswerkzeuge wie Compiler, Interpreter, Linter, Debugger,
+Syntax-Highlighter oder Editoren ohne KI-Funktionalität. Abschnitt 2(k) (Studium
+des Quellcodes) bleibt von der Definition unberührt.
+
+"Offizielles Repository" bezeichnet das öffentliche git-Repository unter
+https://github.com/Marcel-Bich/buddymon oder ein vom Urheberrechtsinhaber
+offiziell benanntes Nachfolge-Repository.
+
+
+2. Rechteeinräumung
+-------------------
+
+Vorbehaltlich der Bestimmungen und Beschränkungen dieser Lizenz räumt der
+Urheberrechtsinhaber Ihnen hiermit ein einfaches, weltweites,
+unentgeltliches Nutzungsrecht für die nachfolgend genannten Nutzungsarten ein:
+
+(a) Herunterladen und Installieren der Software auf Ihren eigenen Systemen.
+
+(b) Nutzung der Software zu persönlichen, nicht-kommerziellen Zwecken.
+
+(c) Interne Nutzung der Software innerhalb Ihrer Organisation, sofern eine
+    solche Nutzung nicht monetarisiert wird und keine direkten oder indirekten
+    Einnahmen erzeugt.
+
+(d) Veränderung der Software für Ihren eigenen privaten Gebrauch, einschließlich
+    der Entwicklung neuer Funktionen, sofern solche Veränderungen privat bleiben
+    und nicht weiterverteilt werden.
+
+(e) Privates Teilen der Software mit Freunden und Familie über direkte
+    Person-zu-Person-Kanäle (etwa USB-Speichermedien, E-Mail oder
+    Direktnachrichten), sofern eine solche Weitergabe keine öffentliche
+    Weiterverteilung darstellt.
+
+(f) Durchführung von Sicherheitsforschung an der Software, sofern entdeckte
+    Schwachstellen vor einer öffentlichen Bekanntmachung verantwortungsvoll an
+    den Urheberrechtsinhaber gemeldet werden.
+
+(g) Nutzung der Software zu Bildungszwecken, einschließlich Lehre, Lernen,
+    Lehrveranstaltungen und akademischer Forschung.
+
+(h) Verweise auf und Demonstrationen der Software in Ihrem beruflichen
+    Portfolio, Lebenslauf oder während Bewerbungsgesprächen.
+
+(i) Erstellung und Veröffentlichung von Streaming-Inhalten, Videoaufzeichnungen,
+    Screencasts und ähnlichen Medien, die die Software enthalten, sofern eine
+    sichtbare Quellenangabe "powered by buddymon by Marcel Bich" in oder neben diesen
+    Inhalten dargestellt wird.
+
+(j) Übermittlung von Kopien der Software an historische Archive wie archive.org,
+    Software Heritage und die Wayback Machine zu Erhaltungszwecken.
+
+(k) Studium des Quellcodes der Software zu Lern- und Verständniszwecken.
+
+
+3. Beschränkungen
+-----------------
+
+Die nachfolgenden Nutzungen sind von der Rechteeinräumung nach Abschnitt 2 nicht umfasst:
+
+(a) Keine direkte Monetarisierung. Sie dürfen die Software nicht verkaufen,
+    lizenzieren, unterlizenzieren, vermieten, verleihen oder auf andere Weise
+    kommerziell vertreiben. Sie dürfen die Software nicht als bezahlten Dienst,
+    bezahltes Software-as-a-Service-Angebot (SaaS) oder bezahltes Support-
+    Geschäft anbieten. Sie dürfen die Software nicht in ein bezahltes Produkt
+    oder einen bezahlten Dienst einbinden.
+
+(b) Keine Weiterverteilung durch Dritte. Sie dürfen die Software (oder eine
+    veränderte Version) nicht über Paketmanager, Softwareverteilungsplattformen
+    oder Repositories wie PyPI, Homebrew, apt, dnf, npm, Docker Hub oder
+    ähnliche veröffentlichen, hochladen oder verteilen. Ausschließlich der
+    Urheberrechtsinhaber, oder Dritte mit seiner ausdrücklichen schriftlichen
+    Zustimmung, dürfen die Software über solche Kanäle vertreiben.
+
+(c) Keine Konkurrenzprodukte. Sie dürfen die Software nicht, weder ganz noch in
+    Teilen, zur Entwicklung oder zum Angebot eines Konkurrenzprodukts nutzen.
+
+(d) Keine öffentlichen Forks, die sich als offiziell ausgeben. Sie dürfen
+    öffentliche Veränderungen oder Forks der Software nicht in einer Weise
+    veröffentlichen, die diese als die offizielle Version, als vom
+    Urheberrechtsinhaber unterstützt oder als mit dem ursprünglichen Projekt
+    verbunden darstellt.
+
+(e) Keine KI-Nutzung (strikt). Die Software darf, ganz oder in Teilen, nicht
+    als Eingabe, Trainingsdaten, Fine-Tuning-Daten, Referenzmaterial, Kontext
+    oder Retrieval-Korpus für irgendein KI-System verwendet werden. Dies
+    schließt ausdrücklich ein:
+
+    - KI-Agenten, die den Quellcode lesen oder analysieren
+    - KI-Assistenten, die den Quellcode in ihrem Kontextfenster haben
+    - RAG-Systeme, die den Quellcode indexieren
+    - Embedding-Modelle, die Vektoren aus dem Quellcode erzeugen
+    - Jeglichen Versuch, die Funktionalität der Software mithilfe von
+      KI-Werkzeugen zu rekonstruieren, nachzuimplementieren oder zu klonen
+
+    AUSNAHME: Der Urheberrechtsinhaber (Marcel Bich) darf KI-basierte
+    Entwicklungswerkzeuge (wie KI-Code-Assistenten oder Coding-Agenten) während
+    der Entwicklung der Software einsetzen. Diese Ausnahme deckt ausschließlich
+    die interaktive Entwicklungsnutzung ab und erlaubt nicht die Verwendung der
+    Software als Trainingsdaten, Fine-Tuning-Daten, Evaluationsdaten oder als
+    sonstige Eingabe zur Erstellung oder Verbesserung von KI-Modellen.
+
+(f) Keine Entfernung des Urhebervermerks. Sie dürfen den Urhebervermerk,
+    die Pflicht zur Namensnennung oder jegliche Bezugnahme auf den
+    Urheberrechtsinhaber, die in der Software enthalten ist, nicht entfernen,
+    verschleiern oder verändern.
+
+
+4. Pflicht zur Quellenangabe
+----------------------------
+
+Überall dort, wo die Software gezeigt, öffentlich genutzt oder ihre Ausgabe
+öffentlich dargestellt wird - einschließlich in jeder Benutzeroberfläche, jedem
+Stream, jeder Videoaufzeichnung, jedem Screencast, jeder Präsentation oder
+Weiterverteilung - muss eine sichtbare Quellenangabe in der Form
+"powered by buddymon by Marcel Bich" dargestellt werden.
+
+Die Quellenangabe muss angemessen sichtbar und darf nicht versteckt oder
+verdeckt sein.
+
+
+5. Externe Beiträge
+-------------------
+
+Externe Codebeiträge, die in die Software aufgenommen werden, müssen
+MIT-kompatibel sein (MIT, Apache 2.0, BSD oder ähnliche permissive Lizenzen).
+Siehe CONTRIBUTING.md für die Inbound-Lizenzbedingungen, die für alle
+Einsendungen an das Projekt gelten.
+
+
+6. Markenrechtlicher Hinweis
+----------------------------
+
+Der Name "buddymon" und die zugehörigen Markenelemente sind durch eine separate
+Markenrichtlinie geschützt und werden nicht durch diese Lizenz lizenziert. Für
+Einzelheiten siehe TRADEMARK.md.
+
+
+7. Dead Man's Switch (automatische Umwandlung in MIT)
+-----------------------------------------------------
+
+Diese Lizenz wird beim Eintritt eines der folgenden auslösenden Ereignisse
+automatisch in die MIT-Lizenz umgewandelt:
+
+(a) Tod des Urheberrechtsinhabers, nachgewiesen durch eine Sterbeurkunde oder
+    eine maßgebliche schriftliche Erklärung eines Rechtsnachfolgers; oder
+
+(b) Inaktivität: Wenn im git-Verlauf des Offiziellen Repositories
+    (https://github.com/Marcel-Bich/buddymon) für 24 aufeinanderfolgende
+    Monate kein Commit erscheint, der von Marcel Bich (git-Identifier:
+    43651076+Marcel-Bich@users.noreply.github.com) verfasst wurde.
+
+Auffangregelung: Sollte das Offizielle Repository nicht mehr verfügbar sein,
+wird die Inaktivität ab dem letzten bekannten öffentlichen Commit von Marcel
+Bich auf einem öffentlichen git-Hosting-Dienst oder ab einer schriftlichen
+Erklärung eines Rechtsnachfolgers gemessen.
+
+Manuelle Übersteuerung: Der Urheberrechtsinhaber kann diese Lizenz jederzeit
+durch Veröffentlichung einer schriftlichen Erklärung manuell in die MIT-Lizenz
+umwandeln. Nach dem Tod des Urheberrechtsinhabers kann jeder Rechtsnachfolger
+dasselbe tun.
+
+Versionsspezifische Parameter: Jede Version der Software verfügt über eine
+eigene LICENSE-Datei mit eigener Inaktivitätsdauer und eigenen Parametern.
+Ältere Versionen behalten ihre ursprünglichen Regeln bei, auch wenn neuere
+Versionen der Software andere Parameter verwenden.
+
+Mit der Umwandlung entfallen sämtliche Beschränkungen dieser Lizenz
+(einschließlich der KI-Klausel in Abschnitt 3(e) und der Pflicht zur
+Quellenangabe in Abschnitt 4), und die Software unterliegt den
+Standardbedingungen der MIT-Lizenz.
+
+
+8. Kommerzielle Lizenzierung (Duale Lizenz)
+-------------------------------------------
+
+Kommerzielle Lizenzen und individuell ausgehandelte Bedingungen sind auf
+Anfrage erhältlich. Einzelvereinbarungen können Rechte einräumen, die über die
+in dieser öffentlichen Lizenz genannten hinausgehen.
+
+Kontakt: marcelutio.de+buddymon@gmail.com
+
+
+9. Beendigung
+-------------
+
+Jeder Verstoß gegen die Bestimmungen dieser Lizenz beendet automatisch und ohne
+Vorankündigung oder Heilungsfrist Ihre Rechte aus dieser Lizenz. Zwingende
+gesetzliche Rechte der Nutzer, insbesondere das Erfordernis einer Abmahnung
+nach § 314 Abs. 2 BGB gegenüber Verbrauchern, bleiben unberührt. Der
+Urheberrechtsinhaber ist nicht verpflichtet, aktive Durchsetzungsmaßnahmen zu
+ergreifen; die Nichtausübung oder verzögerte Geltendmachung von Rechten durch den Urheberrechtsinhaber stellt keinen Verzicht auf diese Rechte dar.
+
+
+10. Haftung und Gewährleistung
+------------------------------
+
+Der Urheberrechtsinhaber haftet für Schäden nur, soweit diese auf Vorsatz
+oder grober Fahrlässigkeit beruhen. Dies gilt nicht für Schäden aus der
+Verletzung des Lebens, des Körpers oder der Gesundheit sowie nicht für
+Ansprüche nach dem Produkthaftungsgesetz.
+
+Bei Verletzung wesentlicher Vertragspflichten (Kardinalpflichten) haftet
+der Urheberrechtsinhaber auch bei leichter Fahrlässigkeit, jedoch begrenzt
+auf den vertragstypischen, vorhersehbaren Schaden.
+
+Im Übrigen ist die Haftung ausgeschlossen, soweit gesetzlich zulässig.
+Die Software wird im derzeitigen Zustand und ohne jegliche Gewährleistung
+zur Verfügung gestellt. Der Urheberrechtsinhaber übernimmt insbesondere
+keine Gewähr für Marktgängigkeit, Eignung für einen bestimmten Zweck,
+fehlerfreien Betrieb oder Nichtverletzung von Rechten Dritter.
+
+
+11. Hinweis zu Drittanbieter-Marken und geistigem Eigentum
+----------------------------------------------------------
+
+Diese Software ist ein nicht-kommerzielles Projekt und steht in keiner
+Verbindung zu Rechteinhabern Dritter. Die Software bündelt keine
+urheberrechtlich geschützten Inhalte.
+
+Etwaige Sprites, Assets oder Medien, die von der Software angezeigt werden,
+werden zur Laufzeit aus externen, vom Nutzer bereitgestellten oder
+referenzierten Quellen geladen. Die Nutzer sind selbst dafür verantwortlich,
+sicherzustellen, dass die Beschaffung und Verwendung solcher Inhalte die
+geltenden Rechte an geistigem Eigentum respektiert.
+
+Alle Marken, Namen, Designs, Charaktere, Sprites und Markenelemente Dritter
+bleiben Eigentum ihrer jeweiligen Inhaber.
+
+Der Urheberrechtsinhaber übernimmt keine Verantwortung für etwaige Konflikte
+mit Rechten Dritter, die aus der Nutzung der Software oder aus der Anzeige
+extern geladener Inhalte entstehen.
+
+
+12. Salvatorische Klausel
+-------------------------
+
+Sollte eine Bestimmung dieser Lizenz für nicht durchsetzbar oder ungültig
+befunden werden, so soll diese Bestimmung so geändert und ausgelegt werden,
+dass die mit ihr verfolgten Ziele im größtmöglichen nach geltendem Recht
+zulässigen Umfang erreicht werden, und die übrigen Bestimmungen bleiben in
+vollem Umfang wirksam.
+
+
+13. Anwendbares Recht
+---------------------
+
+Diese Lizenz unterliegt dem Recht der Bundesrepublik Deutschland und ist nach
+diesem auszulegen. Gerichtsstand für alle Streitigkeiten aus oder im
+Zusammenhang mit dieser Lizenz ist, soweit gesetzlich zulässig, der Sitz des
+Urheberrechtsinhabers. Gegenüber Verbrauchern gilt dies nur, soweit nicht
+zwingende gesetzliche Vorschriften entgegenstehen.
+
+
+14. Sprache
+-----------
+
+Diese Lizenz wird in deutscher und englischer Sprache zur Verfügung gestellt.
+Bei Abweichungen zwischen den beiden Fassungen ist die deutsche Fassung
+maßgeblich.
+
+
+15. Lizenzbezeichnung und Versionierung
+---------------------------------------
+
+Diese Lizenz wird als "Buddymon-Lizenz v1" bezeichnet. Der Urheberrechtsinhaber
+kann spätere Versionen unter abweichenden Namen oder Bedingungen veröffentlichen.
+Jede Version der Software wird unter der Version der Lizenz lizenziert, die ihr
+im Repository beiliegt.
+
+
+================================================================
+                       ENGLISH / ENGLISCH
+================================================================
+
+TL;DR (Plain Language Summary)
+------------------------------
+
+What you CAN do:
+- Install and use buddymon personally on your own machines
+- Use it internally at your company, as long as you do not monetize it
+- Modify buddymon for yourself privately (including building new features)
+- Share the software privately with friends (USB stick, direct message, etc.)
+- Use it for education, learning, teaching, and research
+- Show buddymon in your portfolio, on your resume, or in job interviews
+- Stream or record videos with buddymon, as long as you visibly credit
+  "powered by buddymon by Marcel Bich"
+- Archive buddymon at archive.org, Software Heritage, or the Wayback Machine
+- Read and study the source code
+
+What you CANNOT do:
+- Sell it, monetize it, or build a paid product or paid support business around it
+- Redistribute it on package managers (PyPI, Homebrew, apt, etc.) - only the
+  Official Repository holder (currently: Marcel Bich) or others with his
+  explicit written permission may do that
+- Build a competing product derived from this code
+- Use this code as input or training data for any AI system (for training,
+  fine-tuning, analysis, indexing, or cloning)
+- Remove the attribution notice
+
+Plus: This License automatically converts to the MIT License if Marcel Bich is
+inactive on the Official Repository for 24 consecutive months, or upon his death.
+
+
+1. Definitions
+--------------
+
+"Software" means buddymon, including all source code, object code, documentation,
+configuration files, assets, and other materials distributed under this License.
+
+"Copyright Holder" means Marcel Bich, the original author of the Software.
+
+"You" (or "Your") means an individual or legal entity exercising permissions
+granted by this License.
+
+"Commercial Use" means any use of the Software, in whole or in part, that is
+intended for or directed toward commercial advantage or monetary compensation,
+including but not limited to selling copies, offering paid services based on the
+Software, or incorporating the Software into a paid product.
+
+"Competing Product" means any software product or service that substantially
+replicates, reimplements, or substitutes the functionality of the Software and
+that is offered to third parties (whether commercially or free of charge).
+
+"AI Systems" means machine learning models, artificial intelligence systems,
+large language models, neural networks, automated code generation tools, AI
+agents, AI assistants, retrieval-augmented generation (RAG) systems, embedding
+models, and any other automated systems that learn from, analyze, or generate
+content based on input data.
+
+"Official Repository" means the public git repository hosted at
+https://github.com/Marcel-Bich/buddymon, or any successor repository officially
+designated by the Copyright Holder.
+
+
+2. Grant of Rights
+------------------
+
+Subject to the terms and restrictions of this License, the Copyright Holder
+hereby grants You a worldwide, non-exclusive, royalty-free license to:
+
+(a) Download and install the Software on Your own systems.
+
+(b) Use the Software for personal, non-commercial purposes.
+
+(c) Use the Software internally within Your organization, provided that such
+    use is not monetized and does not generate direct or indirect revenue.
+
+(d) Modify the Software for Your own private use, including the development of
+    new features, provided that such modifications remain private and are not
+    redistributed.
+
+(e) Share the Software privately with friends and family through direct
+    person-to-person channels (such as USB drives, email, or direct messages),
+    provided that such sharing does not constitute public redistribution.
+
+(f) Conduct security research on the Software, provided that any discovered
+    vulnerabilities are disclosed responsibly to the Copyright Holder before
+    public disclosure.
+
+(g) Use the Software for educational purposes, including teaching, learning,
+    coursework, and academic research.
+
+(h) Reference and demonstrate the Software in Your professional portfolio,
+    resume, or during job interviews.
+
+(i) Create and publish streaming content, video recordings, screencasts, and
+    similar media that include the Software, provided that visible attribution
+    "powered by buddymon by Marcel Bich" is displayed in or alongside such content.
+
+(j) Submit copies of the Software to historical archives such as archive.org,
+    Software Heritage, and the Wayback Machine for preservation purposes.
+
+(k) Study the source code of the Software for the purpose of learning and
+    understanding.
+
+
+3. Restrictions
+---------------
+
+The following actions are expressly prohibited under this License:
+
+(a) No Direct Monetization. You may not sell, license, sublicense, rent, lease,
+    or otherwise commercially distribute the Software. You may not offer the
+    Software as a paid service, paid software-as-a-service (SaaS) offering, or
+    paid support business. You may not incorporate the Software into a paid
+    product or service.
+
+(b) No Third-Party Redistribution. You may not publish, upload, or distribute
+    the Software (or any modified version) on package managers, software
+    distribution platforms, or repositories such as PyPI, Homebrew, apt, dnf,
+    npm, Docker Hub, or similar. Only the Copyright Holder, or third parties
+    with his explicit written permission, may distribute the Software through
+    such channels.
+
+(c) No Competing Products. You may not use the Software, in whole or in part,
+    to build, develop, or offer a Competing Product.
+
+(d) No Public Forks Presenting Themselves as Official. You may not publish
+    public modifications or forks of the Software in a manner that presents
+    them as the official version, as endorsed by the Copyright Holder, or as
+    affiliated with the original project.
+
+(e) No AI Use (Strict). The Software may not be used, in whole or in part, as
+    input, training data, fine-tuning data, reference material, context, or
+    retrieval corpus for any AI System. This explicitly includes:
+
+    - AI agents that read or analyze the source code
+    - AI assistants that have the source code in their context window
+    - RAG systems indexing the source code
+    - Embedding models generating vectors from the source code
+    - Any attempt to reconstruct, reimplement, or clone the functionality of
+      the Software using AI tools
+
+    EXCEPTION: The Copyright Holder (Marcel Bich) may use AI-based development
+    tools (such as AI code assistants or coding agents) while working on the
+    Software. This exception covers interactive development use only, and does
+    NOT permit using the Software as training data, fine-tuning data, evaluation
+    data, or any other form of input for creating or improving AI models.
+
+(f) No Removal of Attribution. You may not remove, obscure, or alter the
+    copyright notice, attribution requirement, or any reference to the
+    Copyright Holder contained in the Software.
+
+
+4. Attribution Requirement
+--------------------------
+
+Wherever the Software is shown, used publicly, or its output is displayed
+publicly - including in any user interface, stream, video recording,
+screencast, presentation, or redistribution - visible attribution in the form
+"powered by buddymon by Marcel Bich" must be displayed.
+
+The attribution must be reasonably visible and not hidden or obscured.
+
+
+5. External Contributions
+-------------------------
+
+External code contributions incorporated into the Software must be MIT-compatible
+(MIT, Apache 2.0, BSD, or similar permissive licenses). See CONTRIBUTING.md for
+the inbound license terms governing all submissions to the project.
+
+
+6. Trademark Notice
+-------------------
+
+The name "buddymon" and associated branding are covered by a separate Trademark
+Policy and are not licensed under this License. See TRADEMARK.md for details.
+
+
+7. Dead Man's Switch (Automatic Conversion to MIT)
+--------------------------------------------------
+
+This License automatically converts to the MIT License upon the occurrence of
+either of the following Triggering Events:
+
+(a) Death of the Copyright Holder, as evidenced by a death certificate or an
+    authoritative written declaration by a legal successor; or
+
+(b) Inactivity: If no commit authored by Marcel Bich (git identifier:
+    43651076+Marcel-Bich@users.noreply.github.com) appears in the git history
+    of the Official Repository (https://github.com/Marcel-Bich/buddymon) for
+    24 consecutive months.
+
+Fallback: If the Official Repository becomes unavailable, Inactivity is
+measured from the last known public commit by Marcel Bich on any public git
+hosting service, or from a written declaration by a legal successor.
+
+Manual Override: The Copyright Holder may at any time manually convert this
+License to the MIT License by publishing a written declaration. Upon the death
+of the Copyright Holder, any legal successor may do the same.
+
+Version-Specific Parameters: Each version of the Software has its own LICENSE
+file with its own inactivity duration and parameters. Older versions retain
+their original rules even if newer versions of the Software use different
+parameters.
+
+Upon conversion, all restrictions in this License (including the AI clause in
+Section 3(e) and the Attribution Requirement in Section 4) no longer apply, and
+the Software falls under the standard terms of the MIT License.
+
+
+8. Commercial Licensing (Dual License)
+--------------------------------------
+
+Commercial licensing and custom terms are available upon request. Individual
+agreements may grant rights beyond those stated in this public License.
+
+Contact: marcelutio.de+buddymon@gmail.com
+
+
+9. Termination
+--------------
+
+Any violation of the terms of this License shall automatically terminate Your
+rights under this License without notice and without cure period. Mandatory
+statutory rights of users, including the notice requirement under Section
+314(2) of the German Civil Code (BGB) for consumers, remain unaffected. The
+Copyright Holder is not required to take any active enforcement action; passive
+non-enforcement does not constitute a waiver of rights.
+
+
+10. Warranty Disclaimer
+-----------------------
+
+NOTE: The German version of this Section prevails under Section 14. The German
+version uses wording aligned with German civil law (BGB) and may differ
+materially from the text below. Users located in Germany should refer to the
+German version as the authoritative statement of liability and warranty terms.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+11. Third-Party Trademark and Intellectual Property Notice
+----------------------------------------------------------
+
+This Software is a non-commercial project and is not affiliated with any
+third-party rights holders. The Software does not bundle any copyrighted
+content.
+
+Any sprites, assets, or media displayed by the Software are loaded at runtime
+from external sources provided or referenced by the user. Users are solely
+responsible for ensuring that the acquisition and use of such content complies
+with applicable intellectual property rights.
+
+All third-party trademarks, names, designs, characters, sprites, and branding
+remain the property of their respective owners.
+
+The Copyright Holder assumes no responsibility for any conflicts with
+third-party rights arising from use of the Software or from the display of
+externally loaded content.
+
+
+12. Severability
+----------------
+
+If any provision of this License is held to be unenforceable or invalid, such
+provision shall be changed and interpreted to accomplish the objectives of such
+provision to the greatest extent possible under applicable law, and the
+remaining provisions shall continue in full force and effect.
+
+
+13. Governing Law
+-----------------
+
+This License shall be governed by and construed in accordance with the laws of
+the Federal Republic of Germany. The place of jurisdiction for any disputes
+arising under or in connection with this License shall be, to the extent
+permitted by law, the domicile of the Copyright Holder. With respect to
+consumers, this applies only insofar as no mandatory statutory provisions
+stand to the contrary.
+
+
+14. Language
+------------
+
+This License is provided in both German and English. In case of discrepancies
+between the two versions, the German version prevails.
+
+
+15. License Name and Versioning
+-------------------------------
+
+This License is identified as "Buddymon License v1". The Copyright Holder may
+release later versions under different names or terms. Each version of the
+Software is licensed under the version of the License that accompanies it in
+the repository.

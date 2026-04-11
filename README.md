@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/WIP-ff6b35?style=for-the-badge" alt="WIP"></a>
-  <!-- <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2ea44f?style=for-the-badge" alt="License"></a> -->
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-Buddymon--1.0-da6c49?style=for-the-badge" alt="License"></a>
   <a href="https://github.com/Marcel-Bich/buddymon/stargazers"><img src="https://img.shields.io/github/stars/Marcel-Bich/buddymon?style=for-the-badge&logo=github" alt="GitHub Stars"></a>
   <!-- <a href="#"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FMarcel-Bich%2Fbuddymon%2Fmain%2F.github%2Fclone-stats.json&query=%24.total_clones&label=Clones/Installs&style=for-the-badge&logo=github" alt="Total Clones"></a> -->
 </p>
@@ -33,11 +33,26 @@ Features like the original `/buddy` from Claude Code.
 
 Variety of other features like leveling up, evolution, useful agentic work, etc.
 
-<!--
+## Platform Support
+
+buddymon targets Unix-like systems:
+
+- **Linux** - primary development platform, fully supported
+- **WSL on Windows** - fully supported, recommended for Windows users
+- **macOS** - expected to work, not actively tested
+
+**Native Windows (PowerShell) is not planned.** The implementation relies on Unix-only system features that have no native Windows equivalent. If you are on Windows, please use WSL - it provides full Unix compatibility and works out of the box.
+
 ## License
 
-MIT - See [LICENSE](LICENSE) for full terms.
--->
+This project is licensed under the **Buddymon License v1** - a source-available license that permits personal, educational, and internal use but restricts commercial monetization and code reuse. See [LICENSE](LICENSE) for full terms.
+
+The project name and branding are covered by the [Trademark Policy](TRADEMARK.md).
+
+## Contributing
+
+I'm fine with issues containing code snippets, and I'm not against pull requests, but please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting anything!  
+The contributing rules only exist to prevent licensing issues on my end.
 
 ---
 
@@ -45,9 +60,9 @@ MIT - See [LICENSE](LICENSE) for full terms.
 
 <a href="https://www.star-history.com/#Marcel-Bich/buddymon&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Marcel-Bich/buddymon&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Marcel-Bich/buddymon&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Marcel-Bich/buddymon&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&legend=top-left" />
  </picture>
 </a>
 
