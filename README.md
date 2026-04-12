@@ -25,6 +25,13 @@
   Inspired by the original <code>/buddy</code> command, with room to grow into something much more.
 </p>
 
+<p align="center">
+  <em>
+    Want to help? <strong>Star the repo on GitHub</strong> - it's the best way to show interest and keep me motivated.<br>
+    I'm building at least everything the original <code>/buddy</code> had, and how much further I go depends on community interest ;)
+  </em>
+</p>
+
 ## Minimum Goal
 
 Features like the original `/buddy` from Claude Code.
