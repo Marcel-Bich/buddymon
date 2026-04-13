@@ -36,6 +36,16 @@
 
 Features like the original `/buddy` from Claude Code.
 
+<p align="left">
+  <img src="assets/alpha-demo.png" alt="Buddymon alpha demo screenshot" width="720" />
+</p>
+
+<p align="left">
+  <sub>
+    Unedited screenshot from a real Claude Code session. This is only an alpha demo to show that it runs end to end. I am already significantly further along behind the scenes, and a lot will still change. The visual style, however, will stay roughly like what you see here.
+  </sub>
+</p>
+
 ## Maybe
 
 Variety of other features like leveling up, evolution, useful agentic work, etc.
