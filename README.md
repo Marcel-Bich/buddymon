@@ -16,8 +16,8 @@
 </p>
 
 <p align="center">
-  <strong>WIP - First release soon!</strong><br>
-  <sub><em>Curious where things stand? <a href="https://github.com/Marcel-Bich/buddymon/wiki/Progress">Read the latest progress update</a>.</em></sub>
+  <strong>WIP - on a deliberate pause (not abandoned)</strong><br>
+  <sub><em>Curious where things stand? <a href="https://github.com/Marcel-Bich/buddymon/wiki/Progress">Read the latest progress update (2026-06-16)</a>.</em></sub>
 </p>
 
 <p align="center">
