@@ -76,11 +76,11 @@ The contributing rules only exist to prevent licensing issues on my end.
 
 ## Star History
 
-<a href="https://www.star-history.com/#Marcel-Bich/buddymon&type=date&legend=top-left">
+<a href="https://www.star-history.com/?type=date&legend=top-left&repos=Marcel-Bich%2Fbuddymon">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&theme=dark&legend=top-left&sealed_token=yCW-oYVz6D0v4846444CzMxJgmJCYWUzz9Mpizu2iEduK8r97DJlMtpX18lK399XntD5igB4gZqwkaiyVkMwk1mQdswhpx69Uc0QQ8cfZqXY_dtwjLV2rOLBm3aVJd1CYlHZNmCSdRo6uLWiKAhtHtxRY6P2pRUU91juAc0Py1jDWdaxwPM3EwBZBscg" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&legend=top-left&sealed_token=yCW-oYVz6D0v4846444CzMxJgmJCYWUzz9Mpizu2iEduK8r97DJlMtpX18lK399XntD5igB4gZqwkaiyVkMwk1mQdswhpx69Uc0QQ8cfZqXY_dtwjLV2rOLBm3aVJd1CYlHZNmCSdRo6uLWiKAhtHtxRY6P2pRUU91juAc0Py1jDWdaxwPM3EwBZBscg" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Marcel-Bich/buddymon&type=date&legend=top-left&sealed_token=yCW-oYVz6D0v4846444CzMxJgmJCYWUzz9Mpizu2iEduK8r97DJlMtpX18lK399XntD5igB4gZqwkaiyVkMwk1mQdswhpx69Uc0QQ8cfZqXY_dtwjLV2rOLBm3aVJd1CYlHZNmCSdRo6uLWiKAhtHtxRY6P2pRUU91juAc0Py1jDWdaxwPM3EwBZBscg" />
  </picture>
 </a>
 
